@@ -44,6 +44,12 @@ aside ul li:hover a{
 
 }
 .row{
+	margin: 0;
+}
+ul{
+	padding: 0;
+}
+.m2{
 	margin-left:-20px;
 }
 .col-md-3{
@@ -108,10 +114,4 @@ div.col-2-3{
 	padding: 10px;
 	width: 100%;
 }
-.row{
-	margin-right:20px;
- }
- .pd-l{
- 	padding-left:45px;
- }
 }
