@@ -1,0 +1,114 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+ }
+
+.gly{
+	font-family: 'Glyphicons Halflings';
+}
+
+.container{
+	background-image: url("../images/b.png");
+}
+aside ul li{
+	border:1px solid gray;
+	padding: 10px;
+	width: 80%;
+	background-image: url(../images/bg.jpg);
+}
+.dec ul li{
+	list-style-type: none;
+}
+.dec ul li{
+	list-style-type: none;
+}
+.dec ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color:white;
+}
+aside ul li:hover a{
+	font-size: 16px;
+	color: #F39C12;
+}
+.container{
+	background-image: url("../images/b.png");
+}
+.border {
+	margin:0 auto;
+	margin-top: 60px;
+	border:2px solid #008080;
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+
+}
+.row{
+	margin-left:-20px;
+}
+.col-md-3{
+	padding:0px;
+}
+.box {
+	border:2px solid #48C9B0;
+	background-image: url("../images/bg1.jpg");
+	margin-top: -60px;
+	color: white;
+}
+.box h1 {
+	font-size: 1.8em;
+	padding: 4px;
+	border-bottom: 1px solid #FA8072;
+}
+.box p{
+	font-size: 1em;
+}
+.box h1,.box h4,.box p i{
+	color: #F39C12;  
+}
+.navbar-default .navbar-nav > li:hover a,.navbar-default .navbar-brand:hover{
+  	transform: scale(1.2);
+}
+
+.bg {
+	background-color: #008080;
+	color:#fcbd20;
+}
+.wrapper{
+	margin:20px;
+}
+
+
+
+
+
+	 @media (max-width: 768px) {
+  .navbar-default {
+    background-color: #f8f8f8;
+   border-color: #e7e7e7;
+ }
+ .navbar-default .navbar-nav > li > a{
+ 	color: black;
+ 	width: 90%;
+ }
+ .navbar-default .navbar-nav > li:hover a{
+ 	transform: scale(1.04);
+ 	color: #F39C12;
+ 	font-weight: 800;
+ }
+ .navbar-default button{
+ 	font-weight: 700;
+ 	background-color: #F39C12;
+ }
+ aside ul li{
+	border:1px solid gray;
+	padding: 10px;
+	width: 100%;
+}
+.row{
+	margin-right:20px;
+ }
+ .col-md-6{
+ 	padding-left:45px;
+ }
+}
