@@ -87,6 +87,7 @@ div.col-2-3{
 	margin: 20px;
 }
 .col-md-12{
+<<<<<<< HEAD
 	padding: 0;
 }
 table{
@@ -98,6 +99,11 @@ table td,table th{
 	padding:5px 15px;
 	border: 1px solid #F39C12;
 }
+=======
+	padding:0;
+}
+
+>>>>>>> 414cb8105bdc4779bdfb086def0b171a5fe65ea3
 
 
 
