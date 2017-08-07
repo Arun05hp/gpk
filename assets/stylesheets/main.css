@@ -132,7 +132,9 @@ table td,table th{
 	font-style: bold;
 }
 }
-@media (max-width: 868px) {
+
+
+@media (max-width: 968px) {
 aside{
 	width: 100%;
 }
